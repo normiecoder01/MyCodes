@@ -1,1 +1,1 @@
-console.log(13/2);
+console.log(Math.floor(13/2));

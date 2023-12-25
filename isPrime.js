@@ -10,27 +10,26 @@ function isPrime(num)
     }
     else if (num == 2)
     {
-        console.log("Prime Number");
+        console.log("2 is a Prime Number.");
     }
     else
     {
-        var count = 2;
-        for(var i = 2; i <= (num/2) ; i ++ )
+        var i;
+        for(i = 2; i <= Math.floor(num/2) ; i ++ )
         {
                 if(num%i==0)
                 break;
-            else{
-                count++;
-                }
         }
-        if(count == num/2)
-            console.log("Prime Number");
+        if(i == Math.floor(num/2)+1)
+            console.log(num + " is a Prime Number.");
         else
-            console.log("Not a Prime Number.");
+            console.log(num + " is not a Prime Number.");
 
     }
 }
 isPrime(12);
 isPrime(13);
+isPrime(39);
+isPrime(137);
 isPrime(1);
 isPrime(2);
