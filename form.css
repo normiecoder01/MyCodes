@@ -1,0 +1,40 @@
+table{
+    background: gray;
+    text-align: center;
+    position:relative;
+    
+    border: 3px grey solid;
+    border-radius: 8px;
+    
+}
+body{
+    background: #000;
+}
+input{
+    background: peachpuff;
+    text-align: center;
+    position:relative;
+    color: navy;
+    border: 1px cornsilk solid;
+    border-radius: 2px;
+    
+}
+textarea{
+    background: peachpuff;
+    text-align: center;
+    position:relative;
+    color: navy;
+    border: 1px cornsilk solid;
+    border-radius: 2px;
+    
+}
+button{
+    background: beige;
+    text-align: center;
+    position:relative;
+    color: navy;
+    border: 1px cornsilk solid;
+    border-radius: 2px;
+    
+}
+
