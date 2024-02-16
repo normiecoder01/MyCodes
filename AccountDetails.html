@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Account Details Form</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Account Details</h1>
+    <form id="accountDetails" name="accountDetails">
+      <div class="form-group">
+        <label for="accountId">Account Id:</label>
+        <input type="text" class="form-control" id="accountId" name="accountId">
+      </div>
+      <div class="form-group">
+        <label for="accountName">Account Name:</label>
+        <input type="text" class="form-control" id="accountName" name="accountName">
+      </div>
+      <div class="form-group">
+        <label for="accountType">Account Type:</label>
+        <select class="form-control" id="accountType" name="accountType">
+          <option value="Savings">Savings</option>
+          <option value="Current">Current</option>
+          <option value="Joint">Joint</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="balance">Balance:</label>
+        <input type="text" class="form-control" id="balance" name="balance">
+      </div>
+      <div class="form-group">
+        <label for="creationDate">Creation Date:</label>
+        <input type="date" class="form-control" id="creationDate" name="creationDate">
+      </div>
+      <button type="button" class="btn btn-primary" id="saveInfo">Save Info</button>
+      <button type="button" class="btn btn-info" id="accountInfo">Account Info</button>
+    </form>
+  </div>
+</body>
+</html>

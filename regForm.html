@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+  <div class="border">
+    <table>
+      <tr>
+        <td colspan="4">
+          <h1>Seminar Registration Form</h1>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="title">Participant Name:</label></td>
+        <td><select id="title">
+          <option selected disabled>
+            Title
+          </option>
+          <option value="Mr.">
+            Mr.
+          </option>
+          <option value="Mrs.">
+            Mrs.
+          </option>
+          <option value="Miss">
+            Miss
+          </option>
+        </select></td>
+        <td><input type="text" name="fname" id="fname" placeholder="First Name"></td>
+        <td><input type="text" name="lname" id="lname" placeholder="Last Name"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><label for="email">Email ID</label></td>
+        <td colspan="2"><input type="email" name="email" id="email" placeholder="example@mail.com"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><label for="cemail">Confirm Email ID</label></td>
+        <td colspan="2"><input type="email" name="cemail" id="cemail" placeholder="example@mail.com"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><label for="seminar">Seminar</label></td>
+        <td colspan="2"><select name="seminar" id="seminar">
+          <option value="SOA">
+            SOA
+          </option>
+          <option value="Design Patterns">
+            Design Patterns
+          </option>
+          <option value="Business Intelligence">
+            Business Intelligence
+          </option>
+        </select></td>
+      </tr>
+      <tr>
+        <td colspan="2">Level</td>
+        <td colspan="2">
+            <input class="level-class" type="radio" name="level" id="intro" value="Introductory"><label for="intro">Beginner</label> 
+            <input class="level-class" type="radio" name="level" id="inter" value="Intermediate"> <label for="inter">Intermediate</label> 
+            <input class="level-class" type="radio" name="level" id="advn" value="Advanced"> <label for="advn">Advanced</label></td>
+      </tr>
+      <tr>
+        <td colspan="4"><button id="calc" class="calc">Calculate Training Cost</button></td>
+      </tr>
+      <tr>
+        <td colspan="2"><label for="cost">Cost Of Seminar</label></td>
+        <td>
+        <textarea class="cost" id="cost"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2"><button id="display" class="display">Display Details</button></td>
+        <td colspan="2"><button type="submit" id="submit" class="submit">Submit</button></td>
+      </tr>
+    </table>
+  </div>
+  <script src="regForm.js"></script>
+</body>
+</html>
