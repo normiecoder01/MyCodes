@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RMPS Survey Form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div
+        class="container-fluid"
+        style="display: flex; justify-content: center"
+      >
+        <a class="navbar-brand">Rajmata Public School</a>
+      </div>
+    </nav>
+    <h1 class="display-6" style="text-align: center">Survey Form</h1>
+    <form  action="/submit_survey" method="POST">
+    <div class="row">
+      <div class="col" style="margin-left: 10px; margin-right: 5px">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="First name"
+          aria-label="First name"
+          name="first-name"
+        />
+      </div>
+      <div class="col">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Middle name"
+          aria-label="MIddle name"
+          name="middle-name"
+        />
+      </div>
+      <div class="col" style="margin-left: 5px; margin-right: 10px">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Last name"
+          aria-label="Last name"
+          name="last-name"
+        />
+      </div>
+    </div>
+    <br />
+    <div class="row">
+      <div class="col" style="margin-left: 10px; margin-right: 10px">
+        <input
+          type="date"
+          class="form-control"
+          placeholder="Date of Birth"
+          aria-label="default input example"
+          name="dob"
+        />
+      </div>
+      <div class="col" style="margin-left: 10px; margin-right: 10px">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Age"
+          aria-label="default input example"
+          name="age"
+        />
+        <br />
+      </div>
+    </div>
+    <div class="col" style="margin-left: 10px; margin-right: 10px">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="School Name"
+        aria-label="default input example"
+        name="school"
+      />
+    </div>
+    <p style="margin-left: 10px; margin-right: 10px">Class</p>
+    <div class="row row-cols-lg-auto g-3 align-items-center">
+      <div class="col" style="margin-left: 10px; margin-right: 10px">
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            id="playgroup"
+            value="Play Group"
+            name="class"
+          />
+          <label class="form-check-label" for="nursery">PlayGroup</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            id="nursery"
+            value="Nursery"
+            name="class"
+          />
+          <label class="form-check-label" for="nursery">Nursery</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            id="kgi"
+            value="KG I"
+            name="class"
+          />
+          <label class="form-check-label" for="kgi">KG I</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            id="kgii"
+            value="KG II"
+            name="class"
+          />
+          <label class="form-check-label" for="kgii">KG II</label>
+        </div>
+      </div>
+      <div class="row row-cols-lg-auto g-3 align-items-center">
+        <div class="col" style="margin-left: 10px; margin-right: 10px">
+          <div class="form-check form-check-inline">
+          <input
+          class="form-check-input"
+          type="radio"
+          id="1st"
+          value="1st"
+          name="class"
+          />
+      
+          <label class="form-check-label" for="1st">1st</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+          class="form-check-input"
+          type="radio"
+          id="2nd"
+          value="2nd"
+          name="class"
+          />
+          <label class="form-check-label" for="2nd">2nd</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+          class="form-check-input"
+          type="radio"
+          id="3rd"
+          value="3rd"
+          name="class"
+          />
+          <label class="form-check-label" for="3rd">3rd</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+          class="form-check-input"
+          type="radio"
+          id="4th"
+          value="4th"
+          name="class"
+          />
+        <label class="form-check-label" for="4th">4th</label>
+      </div>
+    </div>
+    <br>
+    <p style="margin-left: 10px; margin-right: 10px">Contact</p>
+    <div class="row row-cols-lg-auto g-3 align-items-center">
+      <div class="col" style="margin-left: 10px; margin-right: 10px">
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="relation"
+            id="mother"
+            value="Mother"
+          />
+          <label class="form-check-label" for="mother">Mother</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            id="father"
+            name="relation"
+            value="Father"
+          />
+          <label class="form-check-label" for="father">Father</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="Whatsapp"
+            value="Yes"
+          />
+          <label class="form-check-label" for="whatsapp">Whastapp</label>
+        </div>
+        <div class="col" style="margin-left: 5px; margin-right: 10px">
+          <input
+          type="tel"
+          class="form-control"
+          placeholder="Contact Number"
+          aria-label="Contact Number"
+          id="contactNumberInput"
+          pattern="[0-9]{10}"
+          title="Please enter a valid 10-digit mobile number."
+          />
+          <br/>
+        </div>
+      </div>
+    </div>
+    <!-- Button trigger modal -->
+    <div class="col" style="margin-left: 10px; margin-right: 10px">
+      <div class="input-group mb-3">
+        <input
+          class="form-control"
+          type="text"
+          value="Area name here"
+          aria-label="readonly input example"
+          id="final-area-name"
+          readonly
+        />
+        <button
+          class="btn btn-primary"
+          type="button"
+          id="change-area-button"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Change Area Name
+        </button>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Change Area Name
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="area-name" class="col-form-label"
+                  >Enter Area Name:</label
+                >
+                <input type="text" class="form-control" id="area-name" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              id="change-area"
+              onclick="setDefaultArea()"
+            >
+              Change Area
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="display: flex; justify-content: center">
+      <div class="col">
+        <label for="remark" style="margin-left: 10px; margin-right: 10px"
+          >Remark</label
+        >
+      </div>
+      <div class="col">
+        <select id="remark">
+          <option value="Very Interested">Very Interested</option>
+          <option value="Interested">Interested</option>
+          <option value="Not Sure">Not Sure</option>
+          <option value="Not Interested">Not Interested</option>
+        </select>
+      </div>
+    </div>
+
+    <br />
+    <div style="display: flex; justify-content: center">
+      <button type="submit" class="btn btn-success">Submit</button>
+    </div>
+  </form>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document
+        .getElementById("change-area-button")
+        .addEventListener("click", function () {
+          document.getElementById("area-name").value = "";
+          document.getElementById("area-name").focus();
+        });
+      function setDefaultArea() {
+        var area = document.getElementById("area-name").value;
+        document.getElementById("final-area-name").value = area;
+        var modalElement = new bootstrap.Modal(
+          document.getElementById("exampleModal")
+        );
+        modalElement.hide();
+        localStorage.setItem("defaultArea", area);
+      }
+      window.addEventListener("load", function () {
+        var defaultArea = localStorage.getItem("defaultArea");
+        if (defaultArea) {
+          document.getElementById("final-area-name").value = defaultArea;
+        }
+      });
+    </script>
+  </body>
+</html>

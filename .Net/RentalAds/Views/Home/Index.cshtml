@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center" >
+@model List<RentalAds.Models.Owner>
+<h1 class="display-4">Welcome</h1>
+    <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card" style="width:300px, margin:10px, height: 600px">
+                <div class="card-body">
+                    <h5 class="card-title">I Am Looking For Flat/Home</h5>
+                   
+                    <a href="/Tenant/TenantRegistration" class="btn btn-primary">Register</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">I Am Looking For A Tenant</h5>
+                   
+                    <a href="/Owner/OwnerRegistration" class="btn btn-primary">Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2>Rental Properties Listed</h2>
+
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Location</th>
+                    <th>Requirement</th>
+                    <th>Date of Posting</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var owner in Model)
+                {
+                    <tr>
+                        <td>@owner.OwnerFirstName</td>
+                        <td>@owner.OwnerLastName</td>
+                        <td>@owner.OwnerLocation</td>
+                        <td>@owner.OwnerRequirement</td>
+                        <td>@owner.AdDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>

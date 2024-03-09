@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Owner Registration";
+}
+@model RentalAds.Models.Owner
+<h1>Owner Registration Page</h1>
+@using (Html.BeginForm("OwnerRegistration", "Owner", FormMethod.Post))
+{
+
+    <div class="mb-3">
+        <label for="firstName" class="form-label">First Name</label>
+        @Html.TextBoxFor(model => model.OwnerFirstName, new { @class = "form-control" })
+    </div>
+
+    <div class="mb-3">
+        <label for="lastName" class="form-label">Last Name</label>
+        @Html.TextBoxFor(model => model.OwnerLastName, new {@class = "form-control" })
+    </div>
+    <div class="mb-3">
+        <label for="location" class="form-label">Location</label>
+       @Html.TextBoxFor(model=>model.OwnerLocation, new {@class = "form-control"})
+    </div>
+    <div class="mb-3">
+        <label for="contact" class="form-label">Contact Number</label>
+        @Html.TextBoxFor(model=>model.OwnerContact, new {@class = "form-control"})    
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        @Html.PasswordFor(model=>model.Password, new {@class = "form-control"})    
+    </div>
+    <div class="mb-3">
+        <label for="cpassword" class="form-label">Confirm Password</label>
+        @Html.PasswordFor(model => model.ConfirmPassword, new { @class = "form-control"})
+    </div>
+    <div class="mb-3">
+        <label for="requirement" class="form-label">Requirement</label>
+        @Html.DropDownListFor(model => model.OwnerRequirement,
+                new List<SelectListItem>
+        {
+        new SelectListItem { Value = "Single Sharing", Text = "Single Sharing" },
+        new SelectListItem { Value = "Double Sharing", Text = "Double Sharing" },
+        new SelectListItem { Value = "Triple Sharing", Text = "Triple Sharing" },
+        new SelectListItem { Value = "1RK", Text = "1RK" },
+        new SelectListItem { Value = "1BHK", Text = "1BHK" },
+        new SelectListItem { Value = "2BHK", Text = "2BHK" },
+        new SelectListItem { Value = "3BHK", Text = "3BHK" }
+        }, new { @class = "form-control" })
+    </div>
+    <input type="submit" />
+}
+
