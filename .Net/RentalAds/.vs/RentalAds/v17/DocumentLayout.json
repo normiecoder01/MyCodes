@@ -3,44 +3,48 @@
   "WorkspaceRootPath": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\views\\home\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:views\\home\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\views\\tenant\\tenantregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:views\\tenant\\tenantregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\views\\owner\\ownerregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:views\\owner\\ownerregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\models\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:models\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\views\\owner\\ownerregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:views\\owner\\ownerregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\views\\tenant\\tenantregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:views\\tenant\\tenantregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\views\\home\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|solutionrelative:views\\home\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B31CF1D5-0213-4821-A070-5621C3A74D4F}|RentalAds.csproj|c:\\cdac\\github\\.net\\rentalads\\models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,6 +67,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwB0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T15:59:01.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Views\\Home\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml.cs",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Models\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
@@ -88,57 +105,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "TenantRegistration.cshtml",
               "DocumentMoniker": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Views\\Tenant\\TenantRegistration.cshtml",
               "RelativeDocumentMoniker": "Views\\Tenant\\TenantRegistration.cshtml",
               "ToolTip": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Views\\Tenant\\TenantRegistration.cshtml",
               "RelativeToolTip": "Views\\Tenant\\TenantRegistration.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAD4vx0AAAA5AAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACwAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-04T12:38:21.503Z"
+              "WhenOpened": "2024-03-04T12:38:21.503Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "OwnerController.cs",
               "DocumentMoniker": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Controllers\\OwnerController.cs",
               "RelativeDocumentMoniker": "Controllers\\OwnerController.cs",
               "ToolTip": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Controllers\\OwnerController.cs",
               "RelativeToolTip": "Controllers\\OwnerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T13:03:17.892Z"
+              "WhenOpened": "2024-03-04T13:03:17.892Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAAAowCAAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-04T11:25:50.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "TenantController.cs",
               "DocumentMoniker": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Controllers\\TenantController.cs",
               "RelativeDocumentMoniker": "Controllers\\TenantController.cs",
               "ToolTip": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Controllers\\TenantController.cs",
               "RelativeToolTip": "Controllers\\TenantController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAdAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBYAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-04T12:39:36.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -146,47 +165,64 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AQIAACQAAAAAAAAAAAAAABwAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-04T11:27:24.33Z"
+              "WhenOpened": "2024-03-04T11:27:24.33Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Tenant.cs",
               "DocumentMoniker": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Models\\Tenant.cs",
               "RelativeDocumentMoniker": "Models\\Tenant.cs",
               "ToolTip": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Models\\Tenant.cs",
               "RelativeToolTip": "Models\\Tenant.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAcAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T11:12:03.25Z"
+              "WhenOpened": "2024-03-04T11:12:03.25Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "OwnerRegistration.cshtml",
               "DocumentMoniker": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Views\\Owner\\OwnerRegistration.cshtml",
               "RelativeDocumentMoniker": "Views\\Owner\\OwnerRegistration.cshtml",
               "ToolTip": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Views\\Owner\\OwnerRegistration.cshtml",
               "RelativeToolTip": "Views\\Owner\\OwnerRegistration.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAABXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-04T13:04:41.209Z"
+              "WhenOpened": "2024-03-04T13:04:41.209Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T11:27:55.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Owner.cs",
               "DocumentMoniker": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Models\\Owner.cs",
               "RelativeDocumentMoniker": "Models\\Owner.cs",
               "ToolTip": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Models\\Owner.cs",
               "RelativeToolTip": "Models\\Owner.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBYAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T11:17:17.465Z"
+              "WhenOpened": "2024-03-04T11:17:17.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "site.css",
               "DocumentMoniker": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -195,19 +231,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-03-04T11:24:44.384Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\CDAC\\GitHub\\.Net\\RentalAds\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "Views\\Home\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-04T11:27:55.121Z",
-              "EditorCaption": ""
             }
           ]
         }

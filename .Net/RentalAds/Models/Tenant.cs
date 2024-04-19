@@ -25,7 +25,7 @@ namespace RentalAds.Models
         [DataType(DataType.Password)]
         [Compare("Password",ErrorMessage ="Passwords does not match")]
         public string? ConfirmPassword { get; set;}
-
+        [Required]
         public DateTime RequirementDate { get; set;} = DateTime.Now;
 
 

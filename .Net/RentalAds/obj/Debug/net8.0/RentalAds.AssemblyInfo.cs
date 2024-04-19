@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RentalAds")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+caa04469072682ef36377d276a20994172de625c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd868f166b8ca80f2c02ea85022fed49adc1a055")]
 [assembly: System.Reflection.AssemblyProductAttribute("RentalAds")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RentalAds")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
