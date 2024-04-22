@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div id="todo-wrapper">
+        <header>
+            <h1>TODO</h1>
+            <div class="date-row">
+                <h2>Thursday</h2>
+                <div class="main-date">
+                    <button id="prev"><<</button>
+                    <span id="current-date">Mar 23, 2017</span>
+                    <button id="next">>></button><br>
+                </div>
+            </div>
+            <div class="new-task">
+                <input type="text" id="newtask" placeholder="Add a task...">
+            </div>
+        </header>
+        <main>
+            <h2>Tasks</h2>
+            <div id="tasklist">
+                <div class="tasks">
+                    <div class="div1">
+                        <input type="checkbox">
+                         <div id="listed-task">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis saepe quidem deserunt inventore molestias nostrum vero cupiditate esse dolore! Perspiciatis dicta, harum nobis quibusdam esse temporibus sed? Repudiandae, voluptatem exercitationem. </div>
+                    </div>
+                    <div class="div2">
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
