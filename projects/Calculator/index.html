@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="buttons">
+            <button class="btn special">%</button>
+            <button class="btn special">CE</button>
+            <button class="btn special">C</button>
+            <button class="btn special">clr</button>
+            <button class="btn special">1/x</button>
+            <button class="btn special">x^2</button>
+            <button class="btn special">x^(1/2)</button>
+            <button class="btn operator">/</button>
+            <button class="btn digit">7</button>
+            <button class="btn digit">8</button>
+            <button class="btn digit">9</button>
+            <button class="btn operator">*</button>
+            <button class="btn digit">4</button>
+            <button class="btn digit">5</button>
+            <button class="btn digit">6</button>
+            <button class="btn operator">-</button>
+            <button class="btn digit">1</button>
+            <button class="btn digit">2</button>
+            <button class="btn digit">3</button>
+            <button class="btn operator">+</button>
+            <button class="btn special">+/-</button>
+            <button class="btn digit">0</button>
+            <button class="btn special">.</button>
+            <button class="btn equals">=</button>
+            <!-- History button -->
+            <button class="btn special" id="history-btn">History</button>
+        </div>
+    </div>
+
+    <!-- History Modal -->
+    <div id="historyModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Calculation History</h2>
+            <ul id="history-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Resized to 90% viewport height */
+    background: linear-gradient(45deg, #ffffff, #f0f0f0);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.calculator {
+    background-color: #444;
+    border-radius: 20px;
+    padding: 15px; /* Reduced padding */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 90%; /* Set width to 90% */
+    max-width: 600px; /* Limit maximum width */
+}
+
+#display {
+    background-color: #000;
+    color: #fff;
+    width: auto; /* Let display adjust its width */
+    max-width: 90%; /* Limit maximum width */
+    padding: 15px; /* Reduced padding */
+    margin-bottom: 10px;
+    font-size: 30px; /* Reduced font size */
+    text-align: right; /* Text align right */
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    width: 120px; /* Reduced button width */
+    height: 70px; /* Reduced button height */
+    padding: 15px; /* Reduced padding */
+    font-size: 16px; /* Reduced font size */
+    border: none;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: #555;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.digit {
+    color: #fff;
+}
+
+.operator {
+    color: yellow;
+}
+
+.clear {
+    color: red;
+}
+
+
+#history-btn {
+    width: 70px; /* Reduced button width */
+    height: 70px; /* Reduced button height */
+    padding: 15px; /* Reduced padding */
+    font-size: 16px; /* Reduced font size */
+    border: none;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 3px; /* Reduced margin */
+}
+#history-btn:hover {
+    background-color: #555;
+}
+
+/* Styles for History Modal */
+.modal {
+    display: none; /* Hide the modal by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Style the history list */
+#history-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#history-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
